@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+    <link rel="stylesheet" href="./style.css" />
+    <title>LAB | JS: Mars Rover Kata</title>
+  </head>
+  <body>
+    <header class="header">
+      <h1>LAB | JS: Mars Rover Kata</h1>
+      <div class="quote">
+        <p><i>"The more dangerous an exploration is, the better the discovery."</i></br>Some dude</p>
+        <p><i>"An exploration without an explorer is meaningless."</i></br>Some guy</p
+      </div>
+    </header>
+    <section id="instruction" class="">
+      <article class="container">
+        <div>
+          <h2>We are sending a rover to Mars, and we need you </br>to move it through a series of instructions sent from the Earth.</h2>
+        </div>      
+        <div>
+          <h2>Your job is to turn the rover in the appropriate direction based on its</br> current direction and to move it forward or backward using the commands below</h2>
+        </div>
+      </article>
+    </section>
+    <section id="commands">
+      <form class="command-form" action="/search" method="post">
+        <div id="select-menu">
+          <select name="rover" id="rover-select">
+            <option value="rover1">Rover 1</option>
+            <option value="rover2">Rover 2</option>
+          </select>
+        </div>
+        <div id="move-rover">
+          <button id="btnLeft" class="btn" type="button">Turn Left</button>
+          <button id="btnRight" class="btn" type="button">Turn Right</button>
+          <button id="btnForw" class="btn" type="button">Move Forward</button>
+          <button id="btnBack" class="btn" type="button">Move Backward</button>
+        </div>
+        <div id="multiple-command">
+          <input class="search-input" type="text" placeholder=" Enter your command - ex:lffrffflbb">
+          <button id="btnSearch" class="search" type="button">Search</button>
+          <button id="btnReset" class="search" type="button">Reset</button>
+        </div>
+      </form>
+    </section> 
+    <section id="display">
+      <div>
+        <table class="display-table">
+          <tbody>
+            <tr>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+              <td></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="console">
+        <h5>Rover's informations:</h5>
+        <article id="content"></article>
+      </div>
+    </section>
+    <script type="text/javascript" src="./rover.js"></script>
+  </body>
+</html>
