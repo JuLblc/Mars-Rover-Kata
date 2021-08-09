@@ -414,11 +414,3 @@ function roverChange(){
        break;
  }
 }
-
-/** ToDo
-**/
-
-/**Questions:
-- différence entre ChildNodes et children
-- appel fonction avec argument suite à évènement (onclick etc) possible?
-**/
