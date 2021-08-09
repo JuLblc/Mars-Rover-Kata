@@ -12,7 +12,7 @@ In this exercise, the goal is to apply as many as possible of the concepts you h
 ## Introduction
 We are sending a rover to Mars, and we need to be able to move it through a series of instructions sent from the Earth. As the final exercise for this part of the module, you will be leading this project.
 
-![Rover picture](https://)
+![Rover picture](https://raw.githubusercontent.com/JuLblc/Mars-Rover-Kata/master/img/rover.jpg)
 
 Our Mars Rover is too independent, let’s put it this way. By that, we mean it can’t move and turn at the same time. This means that if the rover wants to move to the left, its first move must be a turn. Its next move will then be a step forward.
 
